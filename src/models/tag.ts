@@ -1,11 +1,11 @@
-import { getData } from "../database";
-import { Messages } from "../utils/messages";
+
+import { getTags } from "../database";
 
 
 class Tag {
     constructor () {}
      async getTagAll() {
-      const { tags } = await getData("tags");
+      const { tags } = await getTags("tags");
       //console.log(tags);
       return tags;
     }

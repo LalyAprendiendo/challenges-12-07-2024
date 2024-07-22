@@ -4,9 +4,9 @@
   "description": "challenge",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node ./src/models/recipe.ts"
-   
-  },
+    "dev": "ts-node ./src/index.ts",
+    "client": "ts-node ./src/client.ts"
+     },
   "keywords": [],
   "author": "",
   "license": "ISC",

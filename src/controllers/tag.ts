@@ -1,5 +1,6 @@
 import { getTagAll } from "../models/tag";
 
+
 class TagController {
     async getTagAll() {
       return await getTagAll();

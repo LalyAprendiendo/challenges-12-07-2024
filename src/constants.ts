@@ -3,4 +3,5 @@
 
 
 export const URL_API = "https://dummyjson.com/";
+export const URL_API2 = "https://dummyjson.com/recipes/tags"
 export const PORT = 3000;
